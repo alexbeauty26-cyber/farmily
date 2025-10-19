@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Événements - La Farmily</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>La Farmily</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Qui-Sommes-Nous.html" class="nav-link">Qui Sommes-Nous ?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Activites-Tarifs.html" class="nav-link">Activités & Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Restauration-Boutique.html" class="nav-link">Restauration & Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Evenements.html" class="nav-link active">Événements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Contact-Reservation.html" class="nav-link">Contact & Réservation</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Organisez Votre Événement à la Ferme</h1>
+            <p class="page-subtitle">Des célébrations inoubliables dans un cadre naturel unique</p>
+        </div>
+    </section>
+
+    <!-- Event Types Overview -->
+    <section class="events-overview">
+        <div class="container">
+            <h2 class="section-title">Nos Types d'Événements</h2>
+            <div class="event-types-grid">
+                <div class="event-type-card">
+                    <div class="event-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Anniversaires d'Enfants</h3>
+                    <p>Fêtez l'anniversaire de votre enfant dans un cadre magique et authentique</p>
+                    <a href="#anniversaires" class="card-link">Découvrir</a>
+                </div>
+                
+                <div class="event-type-card">
+                    <div class="event-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Building & Séminaires</h3>
+                    <p>Renforcez la cohésion de votre équipe dans un environnement inspirant</p>
+                    <a href="#teambuilding" class="card-link">Découvrir</a>
+                </div>
+                
+                <div class="event-type-card">
+                    <div class="event-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Sorties Scolaires</h3>
+                    <p>Une expérience éducative et ludique pour vos élèves</p>
+                    <a href="#scolaires" class="card-link">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anniversaires d'Enfants -->
+    <section id="anniversaires" class="event-category">
+        <div class="container">
+            <div class="event-header">
+                <div class="event-icon-large">
+                    <i class="fas fa-birthday-cake"></i>
+                </div>
+                <h2>Anniversaires d'Enfants</h2>
+                <p>Créez des souvenirs magiques pour votre enfant et ses amis</p>
+            </div>
+            
+            <div class="event-packages">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Package "Fête"</h3>
+                        <div class="package-price">
+                            <span class="price">150€</span>
+                            <span class="per-child">/10 enfants</span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Accueil et animation 2h</li>
+                            <li><i class="fas fa-check"></i> 1 atelier au choix</li>
+                            <li><i class="fas fa-check"></i> Gâteau d'anniversaire</li>
+                            <li><i class="fas fa-check"></i> Décoration de table</li>
+                            <li><i class="fas fa-check"></i> Photo souvenir</li>
+                        </ul>
+                        <div class="package-details">
+                            <p><strong>Activités disponibles :</strong></p>
+                            <p>Traite des vaches, nourrissage des animaux, atelier apiculture, création de cosmétiques, équitation poney, parcours aventure</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="package-card featured">
+                    <div class="popular-badge">Populaire</div>
+                    <div class="package-header">
+                        <h3>Package "Aventure"</h3>
+                        <div class="package-price">
+                            <span class="price">250€</span>
+                            <span class="per-child">/10 enfants</span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Accueil et animation 3h</li>
+                            <li><i class="fas fa-check"></i> 2 ateliers au choix</li>
+                            <li><i class="fas fa-check"></i> Gâteau d'anniversaire</li>
+                            <li><i class="fas fa-check"></i> Décoration complète</li>
+                            <li><i class="fas fa-check"></i> Photo souvenir + cadre</li>
+                            <li><i class="fas fa-check"></i> Promenade à poney</li>
+                        </ul>
+                        <div class="package-details">
+                            <p><strong>Activités disponibles :</strong></p>
+                            <p>Toutes les activités + tir à l'arc, jeu de piste dans la ferme, chasse au trésor nature</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Building -->
+    <section id="teambuilding" class="event-category">
+        <div class="container">
+            <div class="event-header">
+                <div class="event-icon-large">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2>Team Building & Séminaires</h2>
+                <p>Renforcez la cohésion de votre équipe dans un cadre naturel inspirant</p>
+            </div>
+            
+            <div class="team-building-content">
+                <div class="team-building-text">
+                    <h3>Programme "Cohésion"</h3>
+                    <p>Notre programme team building allie activités ludiques et développement personnel dans un environnement naturel propice à la détente et à la réflexion.</p>
+                    
+                    <div class="program-schedule">
+                        <div class="schedule-item">
+                            <div class="schedule-time">9h00 - 10h30</div>
+                            <div class="schedule-activity">Accueil et activités brise-glace</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-time">10h30 - 12h00</div>
+                            <div class="schedule-activity">Ateliers coopératifs à la ferme</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-time">12h00 - 13h30</div>
+                            <div class="schedule-activity">Déjeuner fermier</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-time">13h30 - 15h00</div>
+                            <div class="schedule-activity">Activités d'aventure en équipe</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-time">15h00 - 16h00</div>
+                            <div class="schedule-activity">Débriefing et conclusion</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-time">16h00 - 18h00</div>
+                            <div class="schedule-activity">Jeu en soirée</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-building-pricing">
+                    <div class="pricing-info">
+                        <h4>Tarifs Team Building</h4>
+                        <div class="price-list">
+                            <div class="price-item">
+                                <span>15-20 personnes</span>
+                                <span>40€ / personne</span>
+                            </div>
+                            <div class="price-item">
+                                <span>20-25 personnes</span>
+                                <span>35€ / personne</span>
+                            </div>
+                            <div class="price-item">
+                                <span>26+ personnes</span>
+                                <span>30€ / personne</span>
+                            </div>
+                        </div>
+                        <div class="includes">
+                            <p><strong>Inclus :</strong></p>
+                            <ul>
+                                <li>Animation professionnelle</li>
+                                <li>Repas fermier</li>
+                                <li>Matériel d'activités</li>
+                                <li>Espaces privatisés</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sorties Scolaires -->
+    <section id="scolaires" class="event-category">
+        <div class="container">
+            <div class="event-header">
+                <div class="event-icon-large">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2>Sorties Scolaires</h2>
+                <p>Une expérience éducative et ludique pour vos élèves</p>
+            </div>
+            
+            <div class="school-visit-content">
+                <div class="visit-format">
+                    <h3>Format "Visite Pédagogique"</h3>
+                    <p>Nos sorties scolaires sont conçues pour allier apprentissage et plaisir, en parfaite adéquation avec les programmes éducatifs. Les enfants découvrent la vie à la ferme tout en développant leurs connaissances sur la nature, les animaux et l'agriculture.</p>
+                    
+                    <div class="educational-activities">
+                        <div class="activity-category">
+                            <h4>Cycle 1 (Maternelle)</h4>
+                            <ul>
+                                <li>Découverte sensorielle des animaux</li>
+                                <li>Atelier jardinage simple</li>
+                                <li>Contes de la ferme</li>
+                                <li>Goûter fermier</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="activity-category">
+                            <h4>Cycle 2 (CP-CE2)</h4>
+                            <ul>
+                                <li>Visite guidée de la ferme</li>
+                                <li>Atelier traite des vaches</li>
+                                <li>Découverte du cycle de vie des plantes</li>
+                                <li>Atelier pain ou fromage</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="activity-category">
+                            <h4>Cycle 3 (CM1-CM2)</h4>
+                            <ul>
+                                <li>Visite approfondie de la ferme</li>
+                                <li>Atelier apiculture</li>
+                                <li>Étude de l'écosystème</li>
+                                <li>Atelier cosmétiques naturels</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="school-pricing">
+                    <div class="pricing-card-school">
+                        <h4>Tarifs Sorties Scolaires</h4>
+                        <div class="school-price-list">
+                            <div class="school-price-item">
+                                <span>Demi-journée (3h)</span>
+                                <span>8€ / élève</span>
+                            </div>
+                            <div class="school-price-item">
+                                <span>Journée complète (6h)</span>
+                                <span>15€ / élève</span>
+                            </div>
+                            <div class="school-price-item">
+                                <span>Accompagnateurs</span>
+                                <span>Gratuit</span>
+                            </div>
+                        </div>
+                        <div class="school-includes">
+                            <p><strong>Inclus :</strong></p>
+                            <ul>
+                                <li>Guide pédagogique</li>
+                                <li>Activités adaptées au niveau</li>
+                                <li>Goûter fermier</li>
+                                <li>Documentation pédagogique</li>
+                                <li>Certificat de participation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="events-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Organisez Votre Événement</h2>
+                <p>Contactez-nous pour obtenir un devis personnalisé selon vos besoins</p>
+                <div class="cta-buttons">
+                    <a href="Contact-Reservation.html" class="btn btn-primary">Obtenir un devis personnalisé</a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Télécharger nos forfaits (PDF)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>La Farmily</span>
+                    </div>
+                    <p>Votre escapade nature en famille</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="Home.html">Accueil</a></li>
+                        <li><a href="Qui-Sommes-Nous.html">Qui Sommes-Nous ?</a></li>
+                        <li><a href="Activites-Tarifs.html">Activités & Tarifs</a></li>
+                        <li><a href="Restauration-Boutique.html">Restauration & Boutique</a></li>
+                        <li><a href="Evenements.html">Événements</a></li>
+                        <li><a href="Contact-Reservation.html">Contact & Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section" style="color: #333333;">
+                    <h4 style="color: #333333;">Contact</h4>
+                    <div class="contact-info" style="color: #333333;">
+                        <p style="color: #333333;"><i class="fas fa-map-marker-alt"></i> 123 Route de la Ferme, 12345 Village</p>
+                        <p style="color: #333333;"><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                        <p style="color: #333333;"><i class="fas fa-envelope"></i> contact@lafarmily.fr</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 La Farmily. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

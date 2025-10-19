@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activités & Tarifs - La Farmily</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>La Farmily</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Qui-Sommes-Nous.html" class="nav-link">Qui Sommes-Nous ?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Activites-Tarifs.html" class="nav-link active">Activités & Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Restauration-Boutique.html" class="nav-link">Restauration & Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Evenements.html" class="nav-link">Événements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Contact-Reservation.html" class="nav-link">Contact & Réservation</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Toutes Nos Activités & Tarifs</h1>
+            <p class="page-subtitle">Découvrez notre carte interactive et explorez tous nos univers</p>
+        </div>
+    </section>
+
+    <!-- Farm Map -->
+    <section class="farm-map">
+        <div class="container">
+            <h2 class="section-title">Plan de la Ferme</h2>
+            <div class="map-container">
+                <div class="farm-map-placeholder">
+                    <div class="map-zones">
+                        <div class="map-zone zone-1">
+                            <i class="fas fa-cow"></i>
+                            <span>Étable & Animaux</span>
+                        </div>
+                        <div class="map-zone zone-2">
+                            <i class="fas fa-tools"></i>
+                            <span>Ateliers</span>
+                        </div>
+                        <div class="map-zone zone-3">
+                            <i class="fas fa-utensils"></i>
+                            <span>Restaurant</span>
+                        </div>
+                        <div class="map-zone zone-4">
+                            <i class="fas fa-tree"></i>
+                            <span>Forêt Aventure</span>
+                        </div>
+                        <div class="map-zone zone-5">
+                            <i class="fas fa-bed"></i>
+                            <span>Hébergement</span>
+                        </div>
+                        <div class="map-zone zone-6">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Boutique</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Sections -->
+    <section class="activities-sections">
+        <div class="container">
+            <!-- Ateliers & Découvertes -->
+            <div class="activity-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h2>Ateliers & Découvertes</h2>
+                    <p>Apprenez les gestes traditionnels de la ferme</p>
+                </div>
+                
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Traite des Vaches</h3>
+                            <p>Découvrez l'art ancestral de la traite et repartez avec vos connaissances sur le cycle laitier.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 45 min</span>
+                                <span class="age"><i class="fas fa-users"></i> 3-12 ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">5€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Nourrissage des Animaux</h3>
+                            <p>Participez au nourrissage de nos animaux et apprenez leurs habitudes alimentaires.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 30 min</span>
+                                <span class="age"><i class="fas fa-users"></i> Tous âges</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">3€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Petit Apiculteur</h3>
+                            <p>Découvrez le monde fascinant des abeilles et apprenez les bases de l'apiculture.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 1h</span>
+                                <span class="age"><i class="fas fa-users"></i> 6-15 ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">12€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Création de Cosmétiques</h3>
+                            <p>Créez vos propres produits cosmétiques naturels avec nos plantes de la ferme.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 1h30</span>
+                                <span class="age"><i class="fas fa-users"></i> 8-16 ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">18€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aventures -->
+            <div class="activity-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h2>Aventures en Plein Air</h2>
+                    <p>Explorez la nature et testez vos limites</p>
+                </div>
+                
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Tir à l'Arc</h3>
+                            <p>Initiation au tir à l'arc dans notre espace dédié avec encadrement professionnel.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 1h</span>
+                                <span class="age"><i class="fas fa-users"></i> 8+ ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">10€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Parcours Aventure</h3>
+                            <p>Accrobranche sécurisé dans notre forêt avec différents niveaux de difficulté.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 2h</span>
+                                <span class="age"><i class="fas fa-users"></i> 5+ ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">12€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Équitation (Poneys)</h3>
+                            <p>Balade à poney dans nos prairies avec initiation aux soins des chevaux.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 45 min</span>
+                                <span class="age"><i class="fas fa-users"></i> 3-12 ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">8€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Détente & Soirées -->
+            <div class="activity-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h2>Détente & Soirées</h2>
+                    <p>Moment de partage et de convivialité</p>
+                </div>
+                
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Soirée Feu de Camp</h3>
+                            <p>Contes traditionnels, observation des étoiles et grillades autour du feu.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 3h</span>
+                                <span class="age"><i class="fas fa-users"></i> Tous âges</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">10€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-info">
+                            <h3>Jeu du Loup-Garou</h3>
+                            <p>Grande partie de loup-garou version ferme avec nos animateurs costumés.</p>
+                            <div class="activity-details">
+                                <span class="duration"><i class="fas fa-clock"></i> 2h</span>
+                                <span class="age"><i class="fas fa-users"></i> 10+ ans</span>
+                            </div>
+                        </div>
+                        <div class="activity-price">
+                            <span class="price">10€</span>
+                            <span class="per-person">/personne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Table -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Tarifs Détaillés</h2>
+            <div class="pricing-table">
+                <div class="pricing-card">
+                    <h3>Visite Libre</h3>
+                    <div class="price-amount">
+                        <span class="currency">€</span>
+                        <span class="amount">15</span>
+                        <span class="period">/personne</span>
+                    </div>
+                    <ul class="features">
+                        <li>Accès libre à la ferme</li>
+                        <li>Visite des animaux</li>
+                        <li>Boutique ferme</li>
+                        <li>Espaces de jeux</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Populaire</div>
+                    <h3>Forfait Famille</h3>
+                    <div class="price-amount">
+                        <span class="currency">€</span>
+                        <span class="amount">45</span>
+                        <span class="period">/famille</span>
+                    </div>
+                    <ul class="features">
+                        <li>2 adultes + 2 enfants</li>
+                        <li>3 activités au choix</li>
+                        <li>Repas inclus</li>
+                        <li>Guide personnel</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Abonnements Annuels</h3>
+                    <div class="price-amount">
+                        <span class="currency">€</span>
+                        <span class="amount">200</span>
+                        <span class="period">/famille</span>
+                    </div>
+                    <ul class="features">
+                        <li>Toutes les activités</li>
+                        <li>Repas + goûter</li>
+                        <li>Hébergement 1 nuit</li>
+                        <li>Petit-déjeuner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download PDF -->
+    <section class="download-section">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-info">
+                    <h3>Télécharger le tarif complet</h3>
+                    <p>Consultez tous nos tarifs et forfaits en détail dans notre brochure PDF</p>
+                </div>
+                <a href="pricelist.pdf" class="btn btn-primary download-btn">
+                    <i class="fas fa-download"></i>
+                    Télécharger le tarif complet (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>La Farmily</span>
+                    </div>
+                    <p>Votre escapade nature en famille</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="Home.html">Accueil</a></li>
+                        <li><a href="Qui-Sommes-Nous.html">Qui Sommes-Nous ?</a></li>
+                        <li><a href="Activites-Tarifs.html">Activités & Tarifs</a></li>
+                        <li><a href="Restauration-Boutique.html">Restauration & Boutique</a></li>
+                        <li><a href="Evenements.html">Événements</a></li>
+                        <li><a href="Contact-Reservation.html">Contact & Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section" style="color: #333333;">
+                    <h4 style="color: #333333;">Contact</h4>
+                    <div class="contact-info" style="color: #333333;">
+                        <p style="color: #333333;"><i class="fas fa-map-marker-alt"></i> 123 Route de la Ferme, 12345 Village</p>
+                        <p style="color: #333333;"><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                        <p style="color: #333333;"><i class="fas fa-envelope"></i> contact@lafarmily.fr</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 La Farmily. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

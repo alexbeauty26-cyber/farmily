@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Réservation - La Farmily</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>La Farmily</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Qui-Sommes-Nous.html" class="nav-link">Qui Sommes-Nous ?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Activites-Tarifs.html" class="nav-link">Activités & Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Restauration-Boutique.html" class="nav-link">Restauration & Boutique</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Evenements.html" class="nav-link">Événements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Contact-Reservation.html" class="nav-link active">Contact & Réservation</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Contact & Réservation</h1>
+            <p class="page-subtitle">Réservez votre escapade nature dès maintenant</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Adresse</h3>
+                    <p>123 Route de la Ferme<br>12345 Village, France</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Téléphone</h3>
+                    <p>+33 1 23 45 67 89</p>
+                    <p class="contact-note">Ouvert 7j/7 de 9h à 18h</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>contact@lafarmily.fr</p>
+                    <p class="contact-note">Réponse sous 24h</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horaires</h3>
+                    <p>Lun-Dim : 9h00 - 18h00</p>
+                    <p class="contact-note">Fermé le 25 décembre</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Trouvez-nous</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map"></i>
+                        <h3>Google Maps</h3>
+                        <p>Interactive map would be embedded here</p>
+                        <div class="map-directions">
+                            <h4>Accès :</h4>
+                            <ul>
+                                <li>En voiture : Sortie A6 - Sortie 15</li>
+                                <li>Parking gratuit sur place</li>
+                                <li>Accès handicapés</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Form -->
+    <section class="reservation-section">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <h2>Réservez Votre Visite</h2>
+                    <p>Remplissez ce formulaire pour réserver votre escapade à la ferme. Nous vous confirmerons votre réservation par email dans les dernières 24h.</p>
+                    
+                    <div class="reservation-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Confirmation immédiate</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Annulation gratuite 48h avant</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Paiement sur place</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reservation-form-container">
+                    <form class="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="prenom">Prénom *</label>
+                                <input type="text" id="prenom" name="prenom" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Téléphone *</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date de visite *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="personnes">Nombre de personnes *</label>
+                                <select id="personnes" name="personnes" required>
+                                    <option value="">Sélectionnez...</option>
+                                    <option value="1">1 personne</option>
+                                    <option value="2">2 personnes</option>
+                                    <option value="3">3 personnes</option>
+                                    <option value="4">4 personnes</option>
+                                    <option value="5">5 personnes</option>
+                                    <option value="6">6 personnes</option>
+                                    <option value="7">7 personnes</option>
+                                    <option value="8">8 personnes</option>
+                                    <option value="9">9 personnes</option>
+                                    <option value="10+">10+ personnes</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="activites">Activités souhaitées</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="traite">
+                                    <span>Traite des vaches</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="nourrissage">
+                                    <span>Nourrissage des animaux</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="apiculture">
+                                    <span>Atelier apiculture</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="cosmetiques">
+                                    <span>Création de cosmétiques</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="tir-arc">
+                                    <span>Tir à l'arc</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="parcours">
+                                    <span>Parcours aventure</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="equitation">
+                                    <span>Équitation (poneys)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="activites" value="feu-camp">
+                                    <span>Soirée feu de camp</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message (optionnel)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Dites-nous en plus sur votre visite souhaitée..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="oui">
+                                <span>Je souhaite recevoir la newsletter de La Farmily</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer la réservation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="downloads-section">
+        <div class="container">
+            <h2 class="section-title">Documents Utiles</h2>
+            <div class="downloads-grid">
+                <div class="download-item">
+                    <div class="download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="download-info">
+                        <h3>Tarifs Complets</h3>
+                        <p>Tous nos tarifs et forfaits en détail</p>
+                    </div>
+                    <a href="pricelist.pdf" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Télécharger
+                    </a>
+                </div>
+                
+                <div class="download-item">
+                    <div class="download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="download-info">
+                        <h3>Menu Restaurant</h3>
+                        <p>Notre carte et nos spécialités</p>
+                    </div>
+                    <a href="pricelist.pdf" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Télécharger
+                    </a>
+                </div>
+                
+                <div class="download-item">
+                    <div class="download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="download-info">
+                        <h3>Forfaits Événements</h3>
+                        <p>Nos packages pour vos célébrations</p>
+                    </div>
+                    <a href="pricelist.pdf" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Télécharger
+                    </a>
+                </div>
+                
+                <div class="download-item">
+                    <div class="download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="download-info">
+                        <h3>Plan de la Ferme</h3>
+                        <p>Plan détaillé de nos installations</p>
+                    </div>
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Télécharger
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Comment réserver une visite ?</h3>
+                    <p>Vous pouvez réserver directement via notre formulaire en ligne ou nous appeler au +33 1 23 45 67 89. Nous confirmons toutes les réservations par email.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Quels sont les horaires d'ouverture ?</h3>
+                    <p>Nous sommes ouverts tous les jours de 9h à 18h, sauf le 25 décembre. Les activités se déroulent selon un planning établi en fonction de la saison.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Y a-t-il un parking ?</h3>
+                    <p>Oui, nous disposons d'un parking gratuit et sécurisé pouvant accueillir jusqu'à 50 véhicules. L'accès handicapés est également prévu.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Que faire en cas de mauvais temps ?</h3>
+                    <p>La plupart de nos activités peuvent se dérouler sous abri. En cas de météo très défavorable, nous proposons des activités alternatives ou reportons votre visite.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Peut-on annuler une réservation ?</h3>
+                    <p>Oui, vous pouvez annuler gratuitement jusqu'à 48h avant votre visite. Au-delà, des frais d'annulation peuvent s'appliquer selon nos conditions générales.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Acceptez-vous les groupes ?</h3>
+                    <p>Absolument ! Nous accueillons les groupes scolaires, entreprises, associations et familles nombreuses. Contactez-nous pour des tarifs préférentiels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>La Farmily</span>
+                    </div>
+                    <p>Votre escapade nature en famille</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="Home.html">Accueil</a></li>
+                        <li><a href="Qui-Sommes-Nous.html">Qui Sommes-Nous ?</a></li>
+                        <li><a href="Activites-Tarifs.html">Activités & Tarifs</a></li>
+                        <li><a href="Restauration-Boutique.html">Restauration & Boutique</a></li>
+                        <li><a href="Evenements.html">Événements</a></li>
+                        <li><a href="Contact-Reservation.html">Contact & Réservation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section" style="color: #333333;">
+                    <h4 style="color: #333333;">Contact</h4>
+    <div class="contact-info" style="color: #333333;">
+        <p style="color: #333333;"><i class="fas fa-map-marker-alt"></i> 123 Route de la Ferme, 12345 Village</p>
+        <p style="color: #333333;"><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+        <p style="color: #333333;"><i class="fas fa-envelope"></i> contact@lafarmily.fr</p>
+    </div>
+</div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 La Farmily. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
